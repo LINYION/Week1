@@ -1,10 +1,10 @@
 import java.util.Date;
 
 public class Lost {
-    String LostName;      //失物名字
-    Date LostDate;        //拾到日期
-    String LostSpot;        //拾到地点
-    String GetSpot;         //认领地点
+    protected String LostName;      //失物名字
+    protected Date LostDate;        //拾到日期
+    protected String LostSpot;        //拾到地点
+    protected String GetSpot;         //认领地点
 
     public Lost() {
     }

@@ -70,7 +70,7 @@ public class Demo {
         public static Lost[] selectByKeyword(Lost[] lostArray, String keyword) {
             ArrayList<Lost> lost =new ArrayList<>();
             for(int i = 0;i< lostArray.length;i++){
-                if(lostArray[i].LostSpot.contains(keyword)){
+                if(lostArray[i].LostSpot != null && lostArray[i].LostSpot.contains(keyword)){
                     lost.add(lostArray[i]);
                 }
             }
